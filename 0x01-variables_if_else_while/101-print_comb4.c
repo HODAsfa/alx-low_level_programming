@@ -3,7 +3,8 @@
 /**
  * main - entry point
  *
- * Description:
+ * Description: print all possible combinations
+ * of three different digits.
  *
  * Return: always 0 (success)
 */
@@ -18,7 +19,7 @@ int main(void)
 		digit2 = 0;
 		while (digit2 <= 9)
 		{
-			digit3 + 0;
+			digit3 = 0;
 			while (digit3 <= 9)
 			{
 				if (digit1 != digit2 &&
